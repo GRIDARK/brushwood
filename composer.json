@@ -1,0 +1,21 @@
+{
+    "name": "griva/brushwood",
+    "description": "Is a easy way using the twig accessibility",
+    "type": "wordpress-plugin",
+    "license": "GNU GPL v2",
+    "authors": [
+        {
+            "name": "Vasily Grigoriev",
+            "email": "v.grigoriev@griva.group"
+        }
+    ],
+    "require": {
+        "php": ">=7.4",
+        "twig/twig": "^3.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Brushwood\\": "lib"
+        }
+    }
+}
